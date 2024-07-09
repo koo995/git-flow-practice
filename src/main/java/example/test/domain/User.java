@@ -1,6 +1,5 @@
 package example.test.domain;
 
-import example.test.Post;
 import jakarta.persistence.*;
 import lombok.NoArgsConstructor;
 import java.util.Set;

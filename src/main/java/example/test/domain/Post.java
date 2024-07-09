@@ -1,6 +1,5 @@
-package example.test;
+package example.test.domain;
 
-import example.test.domain.User;
 import jakarta.persistence.*;
 
 @Entity
