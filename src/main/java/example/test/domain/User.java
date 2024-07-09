@@ -13,8 +13,5 @@ public class User {
 
     private String name;
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
-    private Set<Post> posts;
-
-    private String name2;
+    private String address;
 }
