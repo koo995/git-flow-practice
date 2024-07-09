@@ -11,5 +11,5 @@ public class User {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long pk;
 
-    private String name;
+    private String name2;
 }
