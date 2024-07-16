@@ -1,15 +1,18 @@
-package example.test;
+package example.test.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 
 @Entity
-public class Post {
+public class Review {
 
-    @Id
-    @GeneratedValue
+    @Id @GeneratedValue
     private Long id;
 
+    private String content;
+
     private String name;
+
+    private Long name2;
 }
