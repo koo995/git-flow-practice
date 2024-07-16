@@ -11,4 +11,8 @@ public class Review {
     private Long id;
 
     private String content;
+
+    private String name;
+
+    private Long name2;
 }
