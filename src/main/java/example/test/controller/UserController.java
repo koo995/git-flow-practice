@@ -23,4 +23,9 @@ public class UserController {
     public void login2(User user) {
         userService.login(user);
     }
+
+    @PostMapping("/login3")
+    public void login3(User user) {
+        userService.login(user);
+    }
 }
